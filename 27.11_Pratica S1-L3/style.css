@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+}
+
+header img { width: 200px;}
+
+main {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+h1{text-align: center;}
+
+nav {
+    background-color: beige; 
+    border-top: 2px solid rgb(194, 194, 171);
+    height: 60px;
+}
+
+h6 {
+    color: rgb(0, 98, 98);
+    height: 30px;
+}
+
+iframe {
+    align-items: center;
+}
+
+.fotografa {
+    color: grey;
+    text-align: center;
+}
+
+#featured h4{
+    color: brown;
+    margin: 0%;
+}
+
+a{
+    color: rgb(0, 98, 98);
+}
+
+footer {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+
