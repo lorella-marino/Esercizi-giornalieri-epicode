@@ -1,0 +1,252 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    text-align: center;
+    background-image: url(img/sfondo.png);
+    font-family: "Poppins";
+}
+
+/* HEADER */
+header {
+    background-color: rgb(18, 139, 166);
+    box-shadow: 0px 0px 8px 5px #0000002c;
+    width: 450px;
+    height: 350px;
+    margin: 25px auto;
+}
+
+header img {
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+header div p {
+    font-weight: 500;
+    font-size: 16pt;
+    color: white;
+    padding: 25px;
+}
+
+header nav ul li {
+    font-weight: 500;
+    font-size: 16pt;
+    color: white;
+    padding: 5px;
+}
+
+ nav a:link {
+    color: white;
+    text-decoration: none;
+ }
+
+/* MAIN */
+#background {
+    background-color: white;
+    background-position: center;
+    width: 450px;
+    height: 3490px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 8px 5px #0000002c;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+article {
+    text-align: left;
+    padding:  40px 20px 20px 20px ;
+    line-height: 25pt;
+}
+
+article h1 {
+    font-size: 30pt;
+    line-height: 40pt;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.autore {
+    color: gray;
+    font-size: 17pt;
+    padding-bottom: 25px;
+} 
+
+p{
+    font-size: 17pt;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-size: 17pt;
+}
+
+strong {
+    color: rgb(144, 11, 104);
+    font-weight: 600;
+}
+
+article ul {
+    font-size: 17pt;
+    padding-bottom: 30px;
+    list-style-type: circle;
+    padding-left: 40px;
+}
+
+ul code {
+    background-color: rgb(221, 221, 221);
+    border-radius: 7pt;
+    border: 1px solid gray;
+}
+
+article ol {
+    font-size: 17pt;
+    padding-bottom: 30px;
+    list-style-type: decimal;
+    padding-left: 40px;
+}
+
+article p a {
+    color: rgb(21, 148, 171);
+    font-weight: 600;
+}
+
+iframe {
+    border-radius: 20pt;
+}
+
+/* TABELLE */
+
+table {
+    text-align: center;
+    margin: auto;
+    border-bottom: 2px solid rgb(91, 91, 203);
+}
+
+caption {
+    font-size: 17pt;
+    font-style: italic;
+    font-weight: 600;
+}
+
+th {
+    font-size: 17pt;
+    padding: 15px;
+    background-color: rgb(91, 91, 203);
+    color: white;
+}
+
+td {
+    font-size: 17pt;
+    padding: 15px;
+    line-height: 30pt;
+}
+
+.gray {
+    background-color: rgb(239, 239, 239);
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.tool {
+    padding-top: 35px;
+}
+
+/* FORM */
+
+section {
+    background-color: rgb(221, 221, 221);
+    margin-top: 40px;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 23pt;
+    font-weight: 600;
+    padding: 20px;
+}
+
+section p {
+    padding: 20px;
+}
+
+form {
+    padding: 25px;
+}
+
+input {
+    width: 230px;
+    height:40px;
+    font-family: "Poppins";
+    font-size: 17pt;
+    padding-left: 10px;
+    border-bottom: 2px dotted;
+}
+
+button {
+    width: 110px;
+    height: 45px;
+    font-family: "Poppins";
+    font-size: 17pt;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(91, 91, 203);
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+aside{
+    padding-bottom: 40px;
+}
+
+aside h2 {
+    text-align: center;
+    font-size: 23pt;
+    font-weight: 600;
+    padding: 20px;
+}
+
+aside div {
+    background-color:  rgb(221, 221, 221);
+    text-align: left;
+    line-height: 25pt;
+    width: 410px;
+    height: 150px;
+    margin: 20px auto;
+    padding-top: 25px;
+}
+
+aside div a {
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 17pt;
+    color: rgb(21, 148, 171);
+    font-weight: 600;
+}
+
+aside div p {
+    padding-left: 20px;
+}
+
+.data {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 13pt;
+}
+
+/* FOOTER */
+
+footer {
+    background: linear-gradient(900deg,rgb(18, 139, 166), rgb(1, 26, 50)) ;
+    box-shadow: 0px 0px 8px 5px #0000002c;
+    height: 140px;
+    margin: 25px auto;
+    padding: 25px;
+}
+
+footer p, address {
+    font-size: 14pt;
+    color: white;
+}
+
+footer a {
+    color: rgb(251, 0, 213);
+    font-weight: 600;
+}
