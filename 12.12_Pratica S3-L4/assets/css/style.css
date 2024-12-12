@@ -1,0 +1,78 @@
+body {
+    margin: auto;
+    background-color: #133430;
+    color: #ebebeb;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+
+
+h1 {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#tombola-board {
+    display: inline-block;
+    margin: 1em 30% 1em 30%;
+}
+
+.tombola-cell {
+   width: 50px;
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+   background-color: rgb(217, 240, 235);
+   color: rgb(233, 76, 9);
+   float: left;
+   margin: 5px;
+   font-size: 1.5em;
+   font-weight: 500;
+   border-radius: 50%;
+}
+
+button {
+   margin: 20px;
+   padding: 10px 20px;
+   font-size: 16px;
+   font-family: "Outfit", sans-serif;
+   font-size: 1.4rem;
+   background-color: rgb(233, 76, 9);
+   color: rgb(248, 218, 248);
+   border-radius: 15px;
+   border: #133430;
+}
+
+#tombola-board2 {
+    display: inline-block;
+    margin: 4em 30% 1em 30%;
+}
+
+.tombola-cell2 {
+   width: 50px;
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+   background-color: rgb(217, 240, 235);
+   color: rgb(233, 76, 9);
+   float: left;
+   margin: 5px;
+   font-size: 1.5em;
+   font-weight: 500;
+   border-radius: 50%;
+}
+
+.button2 {
+   margin: 20px;
+   padding: 10px 20px;
+   font-size: 16px;
+   font-family: "Outfit", sans-serif;
+   font-size: 1.4rem;
+   background-color: rgb(233, 76, 9);
+   color: rgb(248, 218, 248);
+   border-radius: 15px;
+   border: #133430;
+}
